@@ -1,3 +1,15 @@
+/*Google font code for Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+
+/*Google font import for Macondo*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+
 h1 {
-    color: red;
+    font-family: "Macondo"
+}
+
+body {
+    font-family: "Inter"
 }
