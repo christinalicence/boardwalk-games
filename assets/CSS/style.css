@@ -1,15 +1,29 @@
 /*Google font code for Inter*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
 /*Google font import for Macondo*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
-
-h1 {
-    font-family: "Macondo"
+/*CSS variables*/
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /*Dark brown*/
+    --secondary-color: #aa9581; /*Light brown*/
+    --highlight-color: #416a8e; /*Blue*/
+    --light-highlight-color: #7a9fc2; /*Light blue*/
 }
 
+/*Global styles*/
 body {
-    font-family: "Inter"
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
