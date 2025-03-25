@@ -345,6 +345,54 @@
           </div>
         </div>
       </section>
+      <!--Game reservation form-->
+      <section id="game-reserve" class="container section">
+        <div class="row">
+          <h2 class="display-6 text-center">Reserve a Game</h2>
+          <p>
+            Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.
+          </p>
+        <form action="success.html" method="get">
+          <div class="row">
+          <div class= "col-12 col-lg-4 mb-3">
+            <label for="full-name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="full-name" name="full-name" required>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <label for="phone-number" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone-number" name="phone-number" required>
+          </div>
+          <div class= "col-12 col-lg-4 mb-3">
+            <label for="email-address" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email-address" aria-describedby="email-address">
+            <div id="email-address" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class= "col-12 col-lg-9 mb-3">
+            <label for="select-game" class="form-label">Select Game</label>
+          <select class="form-select" aria-label="Select Game">
+            <option selected>Select Game</option>
+            <option value="1">Galaxy Pioneers</option>
+            <option value="2">Mystic Woods</option>
+            <option value="3">Captain's Gambit</option>
+            <option value="3">Critter Quest</option>
+            <option value="3">Setters of Catan</option>
+            <option value="3">Monopoly</option>
+            <option value="3">Exploding Kittens</option>
+            <option value="3">Cluedo</option>
+          </select>
+        </div>
+        <div class= "col-12 col-lg-3 mb-3">
+            <label for="requested-date" class="form-label">Requested Date</label>
+            <input type="date" class="form-control" id="requested-date" name="requested-date" required>
+          </div>
+          <div class="mb-3 text-end">
+          <button type="submit" id="game-submit-button" class="btn custom-button-outine mb-4">Submit</button>
+        </div>
+        </form>
+      </div>
+      </div>
+
+      </section>
     </main>
 
     <!-- footer / contact section -->
@@ -360,7 +408,7 @@
             <h3 class="sub-heading-color">Contact info</h3>
           <address>
             <strong><i class="fa-solid fa-location-dot"></i> Boardwalk Games</strong>
-            <br />
+            <br/>
             123 Boardwalk<br>
             Boardgame City, 12345<br>
           </address>

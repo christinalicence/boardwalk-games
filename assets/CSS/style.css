@@ -115,6 +115,14 @@ h2 {
   border: none;
 }
 
+
+
+#game-submit-button {
+  align-self: right;
+  justify-content: end;
+}
+
+
 /* Footer /Contact*/
 
 #contact {
@@ -179,6 +187,10 @@ h2 {
   /* Make all service cards the same height for consistency */
   #services .card-body {
     min-height: auto;
+  }
+  /* Make game booking form smaller on larger screens */
+  #game-reserve {
+    max-width: 70%;
   }
 }
 
